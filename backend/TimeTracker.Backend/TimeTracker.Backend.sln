@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TimeTracker.Api", "TimeTracker.Api\TimeTracker.Api.fsproj", "{411DB245-98AB-47B9-ADB1-CB0CFAA024FB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TimeTracker.Api.Test", "TimeTracker.Api.Test\TimeTracker.Api.Test.fsproj", "{A54F9EC1-7E40-4B70-BD39-5F853125779E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{411DB245-98AB-47B9-ADB1-CB0CFAA024FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411DB245-98AB-47B9-ADB1-CB0CFAA024FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411DB245-98AB-47B9-ADB1-CB0CFAA024FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411DB245-98AB-47B9-ADB1-CB0CFAA024FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54F9EC1-7E40-4B70-BD39-5F853125779E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54F9EC1-7E40-4B70-BD39-5F853125779E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54F9EC1-7E40-4B70-BD39-5F853125779E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54F9EC1-7E40-4B70-BD39-5F853125779E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
