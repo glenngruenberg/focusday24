@@ -5,3 +5,69 @@ docker-compose.override.yml
 *.env.*
 !*.example.env
 .docker/
+
+.fake
+
+## .NET Core
+bin/
+obj/
+out/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.csproj.user
+*.dbmdl
+*.jfm
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.nupkg
+*.nuproj
+*.xap
+*.vspscc
+*.vssscc
+*.bak
+*.log
+*.tlog
+*.sqm
+*.docstates
+*.ide/
+_ReSharper*/
+*.DotSettings
+TestResults/
+*.[Pp]ublish.xml
+*.resharper
+
+## F# interactive
+.fsx
+.fsi
+.fsx~
+
+## Rider
+.idea/
+
+## User-specific files
+*.rsuser
+*.crproj
+
+## Mono Auto Generated Files
+mono_crash.*
+
+## MAC OS files
+.DS_Store
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Azure Functions localsettings file
+local.settings.json
+
+#Azure DevOps cache/options directory
+.azure/
