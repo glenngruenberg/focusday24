@@ -1,0 +1,7 @@
+# Docker #
+##########
+*.env
+docker-compose.override.yml
+*.env.*
+!*.example.env
+.docker/
